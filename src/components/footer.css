@@ -1,0 +1,45 @@
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #99AAB5;
+}
+
+.footer .navlinks ul {
+
+    display: grid;
+    grid-template-columns: repeat(4, 50%);
+    grid-column-gap: 10px;
+}
+
+.footer .navlinks li {
+    display: inline-block;
+}
+
+.footer .navlinks li a {
+    color: white;
+    text-align: center;
+}
+
+.footer .navlinks li a:hover {
+
+    color: green;
+    text-decoration: underline;
+}
+
+.footer .copyright {
+
+    text-align: center;
+}
+
+.navlinks {
+
+    float: left;
+    margin: 10px;
+}
+
+.nodecraft-sponsorship {
+
+    margin: auto;
+    box-sizing: border-box;
+}
